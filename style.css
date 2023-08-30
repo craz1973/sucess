@@ -1,0 +1,165 @@
+*{
+  margin:0;
+  padding: 0%;
+  
+}
+body{
+  margin: 0;
+  
+  height: 100vh;
+  width: 100vw;
+  background-color: #2E2E5A;
+
+}
+/* 2E2E5A */
+.form-container{
+  background-color: #ffffff;
+  box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.25); 
+  padding: 16px ;
+  margin-top: 20px;
+  width: 1000px;
+  height: 760px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-container{
+  background-color: #ffffff;
+  border-radius: 24px;
+  
+  
+  padding: 25px;
+  width: 450px;
+  height: 660px;
+  float: right;
+  margin-top: 50px;
+  margin-left: 10px;
+  float: left;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+h1{
+  font-size: 48px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+p{
+  padding-top: 20px;
+  font-size: 24px;
+
+}
+img{
+  vertical-align: center;
+}
+.email{
+  
+  margin-top: 20px;
+  margin-top: 40px;
+  align-items: center;
+}
+.email, #email{
+  height: 40px;
+  width: 350px;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+button{
+  height: 60px;
+  width: 390px;
+  align-items: center;
+
+ align-content: center;
+ background-color: #2E2E5A;
+ color: #ffffff;
+ font: 20px;
+ border-radius: 12px;
+}
+button, text{
+  font-size: 20px;
+  padding:5px ;
+}
+
+.success {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.success-content {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success h2 {
+  font-size: 24px;
+}
+
+.success p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.success button {
+  background-color: rgb(46, 46, 90);
+  color: white;
+  text-decoration: none;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.success button:hover {
+  background-color: #f1763d;
+  color: white;
+  text-decoration: none;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.right-container{
+  border-radius: 24px;
+  width: 450px;
+  height: 660px;
+  float: right;
+  vertical-align: center;
+  margin-top: 40px;
+  margin-left: -20px;
+  margin-right: 20px;
+  background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+  background-size: cover;
+
+}
+
+
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+    color: wheat;
+}
